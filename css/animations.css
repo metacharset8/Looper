@@ -1,0 +1,49 @@
+.card_1 svg:hover,
+.card_2 svg:hover,
+.card_3 svg:hover,
+.card_4 svg:hover,
+.card_5 svg:hover,
+.card_6 svg:hover {
+    animation: anim 2s linear; 
+}
+
+.card_1 svg:hover,
+.card_5 svg:hover{
+    fill: #00F0B5;
+}
+
+.card_2 svg:hover,
+.card_6 svg:hover{
+    fill: #F61067;
+}
+
+.card_3 svg:hover,
+.card_4 svg:hover{
+    fill: #F67110;
+}
+
+@keyframes anim {
+    0% {
+        transform: translateY(0);
+    }
+
+    20%{
+        transform: translateY(-40%);
+    }
+
+    40%{
+        transform: rotateY(0);
+    }
+
+    60%{
+        transform: rotateY(360deg);
+    }
+
+    80%{
+        transform: translateY(-40%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
