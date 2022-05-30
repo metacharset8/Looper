@@ -6,3 +6,5 @@ links.forEach(link => {
         this.classList.add('active');
     });
 });
+
+console.log('Test for git is completed');
