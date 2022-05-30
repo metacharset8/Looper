@@ -8,3 +8,4 @@ links.forEach(link => {
 });
 
 console.log('Test for git is completed');
+console.log('Clone created');
