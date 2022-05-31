@@ -748,12 +748,12 @@ a.list__link-contact {
     width: 267px;
 }
 
-.red-stroke img{
+.red-border img{
     border: 2px solid red;
     border-radius: 5px;
 }
 
-.green-stroke img{
+.green-border img{
     border: 2px solid blue;
     border-radius: 5px;
 }
