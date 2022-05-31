@@ -587,8 +587,6 @@ body {
     margin: 0 0 144px 0;
 }
 
-.email-block {}
-
 .email-block__text {
     display: flex;
     flex-direction: column;
@@ -747,8 +745,17 @@ a.list__link-contact {
 }
 
 .footer__nav__follow-us {
-    /* margin: 0 0 0 18px; */
     width: 267px;
+}
+
+.red-stroke img{
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.green-stroke img{
+    border: 2px solid blue;
+    border-radius: 5px;
 }
 
 .list__ul_lol {
