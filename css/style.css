@@ -125,12 +125,6 @@ body {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-/* .menu__link:hover {
-    opacity: 1;
-    border-bottom: 2px solid currentColor;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-} */
-
 .header__number {
     margin: 0 0 0 98px;
 }
