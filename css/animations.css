@@ -4,21 +4,21 @@
 .card_4 svg:hover,
 .card_5 svg:hover,
 .card_6 svg:hover {
-    animation: anim 2s linear; 
+    animation: anim 1.8s linear infinite;
 }
 
 .card_1 svg:hover,
-.card_5 svg:hover{
+.card_5 svg:hover {
     fill: #00F0B5;
 }
 
 .card_2 svg:hover,
-.card_6 svg:hover{
+.card_6 svg:hover {
     fill: #F61067;
 }
 
 .card_3 svg:hover,
-.card_4 svg:hover{
+.card_4 svg:hover {
     fill: #F67110;
 }
 
@@ -27,23 +27,23 @@
         transform: translateY(0);
     }
 
-    20%{
+    20% {
         transform: translateY(-40%);
     }
 
-    40%{
-        transform: rotateY(0);
+    40% {
+        transform: translateY(-40%) rotate(0) ;
     }
 
-    60%{
-        transform: rotateY(360deg);
+    60% {
+        transform: translateY(-40%) rotate(360deg);
     }
 
-    80%{
+    80% {
         transform: translateY(-40%);
     }
 
-    100%{
+    100% {
         transform: translateY(0);
     }
 }

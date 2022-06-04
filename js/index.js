@@ -7,7 +7,7 @@ const footer = document.querySelectorAll("footer");
 links.forEach((link) => {
   link.addEventListener("click", () => {
     links.forEach((lk) => lk.classList.remove("active"));
-    this.classList.add("active");
+    link.classList.add("active");
   });
 });
 
@@ -34,13 +34,13 @@ footer__icons.forEach((footer__icon) => {
 
 // Делегирование событий
 footer.forEach((foo) => {
-  foo.addEventListener('click', ()=>{
-      if(event.target.classList == 'footer__title'){
-          console.log('Looper');
-      } else{
-        console.log('Footer');
-      }
-  })
+  foo.addEventListener("click", () => {
+    if (event.target.classList == "footer__title") {
+      console.log("Looper");
+    } else {
+      console.log("Footer");
+    }
+  });
 });
 
 // Тест гита
